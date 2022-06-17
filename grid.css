@@ -1,0 +1,49 @@
+*{
+ margin: 0; 
+ padding: 0;  
+}
+body{
+    background-color: rgb(26, 24, 24);
+    display: grid;
+    place-items: center;
+    height: 50%;
+    
+}
+main{
+    display:grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+      
+    ;
+    gap: 20px;
+    width: 50%;
+    margin: auto;
+
+}
+.itema{
+    background-color:red ;
+    grid-area: a;
+}
+.itemb{
+    background-color: yellow;
+    grid-area: b;
+}
+.itemc{
+    background-color: green;
+    grid-area: c; 
+}
+.itemd{
+    background-color: blue;
+    grid-area: d;
+}
+.iteme{
+    background-color: blue;
+    grid-area: e;
+}
+main,div{
+    padding: 5em;
+    text-align: center;
+    border-radius: 10px;
+}
